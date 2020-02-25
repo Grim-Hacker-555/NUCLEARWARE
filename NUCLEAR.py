@@ -1,12 +1,7 @@
-import os, sys, time
-import socket
-import socks
+import os,sys,time,re,socket,socks,random
 import threading
-import random
-import re
 import urllib.request
-import os
-import sys
+
 from bs4 import BeautifulSoup
 
 os.system("clear")
